@@ -10,10 +10,20 @@
 
     <test name="Go to Home page" preserve-order="true">
         <classes>
-            <!--<class name="iPhone.ButtonTest"/>-->
-            <!--<class name="iPhone.TextFieldsTest"/>-->
-            <!--<class name="iPhone.PickerTest"/>-->
-            <!--<class name="iPhone.AlertsTest"/>-->
+        <class name="testalertpage.TestAlertPage"/>
+            <class name="testbuttonpage.TestButtonPage"/>
+            <class name="testcontrolpage.TestControlPage"/>
+            <class name="testimagepage.TestImagePage"/>
+            <class name="testpickerpage.TestPickerPage"/>
+            <class name="testsearchbarpage.TestSearchBarPage"/>
+            <class name="testsegmentpage.TestSegmentPage"/>
+            <class name="testtextfield.TestTextField"/>
+            <class name="testtextview.TestTextView"/>
+            <class name="testtoolbar.TestToolBar"/>
+            <class name="testtransitionspage.TestTransitionsPage"/>
+            <class name="testuicatalogpage.TestUICatalogPage"/>
+            <class name="testwebpage.TestWebPage"/>
+            
         </classes>
     </test>
 </suite>

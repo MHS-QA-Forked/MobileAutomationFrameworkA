@@ -19,6 +19,12 @@ public class BusinessPageTest extends CommonAPI {
     @Test
     public void Menu() {
         BusinessPage businessPage = PageFactory.initElements(ad, BusinessPage.class);
+        businessPage.getMenu();
+    }
+
+    @Test
+    public void Business() {
+        BusinessPage businessPage = PageFactory.initElements(ad, BusinessPage.class);
         businessPage.getBusiness();
     }
 }

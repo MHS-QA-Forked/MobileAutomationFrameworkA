@@ -1,7 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c412f559-88e2-472d-ade0-369ab88c7eef" name="Default Changelist" comment="" />
+    <list default="true" id="c412f559-88e2-472d-ade0-369ab88c7eef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/NYPost/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NYPost/src/main/java/homepage/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NYPost/src/main/java/lateststories/LatestStories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NYPost/src/test/java/testhome/TestHome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NYPost/src/test/java/testlateststories/TestLatestStories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/main/java/alertspage/Alerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/main/java/buttonspage/ButtonsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/main/java/controlspage/ControlsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/main/java/imgespage/ImagesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/main/java/pickerspage/PickerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/main/java/searchbarpage/SearchBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/main/java/segmentspage/SegmentsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/main/java/textfieldspage/TextFields.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/main/java/textviewpage/TextView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/main/java/toolbarpage/Toolbar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/main/java/transitionspage/Transitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/main/java/uicatalogpage/UiCatalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/main/java/webpage/WebPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/test/java/testalertpage/TestAlertPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/test/java/testbuttonpage/TestButtonPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/test/java/testcontrolpage/TestControlPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/test/java/testimagepage/TestImagePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/test/java/testpickerpage/TestPickerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/test/java/testsearchbarpage/TestSearchBarPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/test/java/testsegmentpage/TestSegmentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/test/java/testtextfield/TestTextField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/test/java/testtextview/TestTextView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/test/java/testtoolbar/TestToolBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/test/java/testtransitionspage/TestTransitionsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/test/java/testuicatalogpage/TestUICatalogPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UIcatalog/src/test/java/testwebpage/TestWebPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/common/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/common/CommonAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/src/main/java/articles/MainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/src/main/java/businesspage/BusinessPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/src/main/java/businesspage/BusinessPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/src/main/java/entertainmentpage/EntertainmentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/src/main/java/entertainmentpage/EntertainmentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/src/main/java/fashionpage/FashionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/src/main/java/fashionpage/FashionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/src/main/java/livingpage/LivingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/src/main/java/livingpage/LivingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/src/main/java/mediapage/MediaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/src/main/java/mediapage/MediaPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/src/main/java/metropage/MetroPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/src/main/java/metropage/MetroPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/src/main/java/newspage/NewsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/src/main/java/newspage/NewsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/src/main/java/opinionpage/OpinionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/src/main/java/opinionpage/OpinionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/src/main/java/pagesix/PageSix.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/src/main/java/pagesix/PageSix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/src/main/java/photospage/PhotoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/src/main/java/photospage/PhotoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/src/main/java/realestatepage/RealStatePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/src/main/java/realestatepage/RealStatePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/src/main/java/sportspage/SportsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/src/main/java/sportspage/SportsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/src/main/java/techpage/TechPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/src/main/java/techpage/TechPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/src/main/java/videopage/VideoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/src/main/java/videopage/VideoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/src/test/java/testarticles/TestArticles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/src/test/java/testbusinesspage/BusinessPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/src/test/java/testbusinesspage/BusinessPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/src/test/java/testentertainment/EntertainmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/src/test/java/testentertainment/EntertainmentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/src/test/java/testfashionpage/FashionPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/src/test/java/testfashionpage/FashionPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/src/test/java/testlivingpage/LivingPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/src/test/java/testlivingpage/LivingPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/src/test/java/testmediapage/MediaPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/src/test/java/testmediapage/MediaPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/src/test/java/testmetropage/MetroPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/src/test/java/testmetropage/MetroPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/src/test/java/testnewspage/NewsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/src/test/java/testnewspage/NewsPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/src/test/resources/NYPTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/src/test/resources/NYPTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/target/NYPost-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/target/NYPost-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/target/classes/articles/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/target/classes/articles/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/target/classes/businesspage/BusinessPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/target/classes/businesspage/BusinessPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/target/classes/entertainmentpage/EntertainmentPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/target/classes/entertainmentpage/EntertainmentPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/target/classes/fashionpage/FashionPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/target/classes/fashionpage/FashionPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/target/classes/livingpage/LivingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/target/classes/livingpage/LivingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/target/classes/mediapage/MediaPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/target/classes/mediapage/MediaPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/target/classes/metropage/MetroPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/target/classes/metropage/MetroPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/target/classes/newspage/NewsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/target/classes/newspage/NewsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/target/test-classes/NYPTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/target/test-classes/NYPTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/target/test-classes/testarticles/TestArticles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/target/test-classes/testbusinesspage/BusinessPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/target/test-classes/testbusinesspage/BusinessPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/target/test-classes/testentertainment/EntertainmentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/target/test-classes/testentertainment/EntertainmentTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/target/test-classes/testfashionpage/FashionPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/target/test-classes/testlivingpage/LivingPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/target/test-classes/testmediapage/MediaPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/target/test-classes/testmetropage/MetroPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/target/test-classes/testnewspage/NewsPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/NYPost/target/test-classes/testnewspage/NewsPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UIcatalog/src/test/resources/cataLogAppTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UIcatalog/src/test/resources/cataLogAppTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UIcatalog/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/UIcatalog/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UIcatalog/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/UIcatalog/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UIcatalog/target/test-classes/cataLogAppTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UIcatalog/target/test-classes/cataLogAppTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/UIcatalog/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -12,25 +101,100 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-478686204">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UIcatalog/src/test/java/testtransitionspage/TestTransitionsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="118" selection-start-line="118" selection-end-line="118" />
+            <state relative-caret-position="210">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UIcatalog/src/main/java/transitionspage/Transitions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UIcatalog/src/test/java/testuicatalogpage/TestUICatalogPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UIcatalog/src/test/java/testwebpage/TestWebPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UIcatalog/src/test/resources/cataLogAppTestRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NYPost/src/test/resources/NYPTestRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="53" lean-forward="true" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testlateststories/TestLatestStories.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/lateststories/LatestStories.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="82">
+              <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UIcatalog/src/main/java/webpage/WebPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -45,40 +209,61 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/MobileAutomationFrameworkA" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/NYPost/src/main/java/mainpage/MainPage.java" />
-        <option value="$PROJECT_DIR$/NYPost/src/main/java/realstatepage/RealStatePage.java" />
-        <option value="$PROJECT_DIR$/NYPost/src/test/java/articles/ArticleTest.java" />
-        <option value="$PROJECT_DIR$/NYPost/src/test/java/articles/BusinessTest.java" />
-        <option value="$PROJECT_DIR$/NYPost/src/test/java/articles/MainPageTest.java" />
-        <option value="$PROJECT_DIR$/NYPost/src/main/java/fashionpage/FashionPage.java" />
-        <option value="$PROJECT_DIR$/NYPost/src/main/java/livingpage/LivingPage.java" />
-        <option value="$PROJECT_DIR$/NYPost/src/main/java/mediapage/MediaPage.java" />
-        <option value="$PROJECT_DIR$/NYPost/src/main/java/metropage/MetroPage.java" />
-        <option value="$PROJECT_DIR$/NYPost/src/main/java/newspage/NewsPage.java" />
-        <option value="$PROJECT_DIR$/NYPost/src/main/java/opinionpage/OpinionPage.java" />
-        <option value="$PROJECT_DIR$/NYPost/src/main/java/pagesix/PageSix.java" />
-        <option value="$PROJECT_DIR$/NYPost/src/main/java/photospage/PhotoPage.java" />
         <option value="$PROJECT_DIR$/NYPost/src/main/java/realestatepage/RealStatePage.java" />
         <option value="$PROJECT_DIR$/NYPost/src/main/java/sportspage/SportsPage.java" />
         <option value="$PROJECT_DIR$/NYPost/src/main/java/techpage/TechPage.java" />
         <option value="$PROJECT_DIR$/NYPost/src/main/java/videopage/VideoPage.java" />
-        <option value="$PROJECT_DIR$/NYPost/src/main/java/businesspage/BusinessPage.java" />
-        <option value="$PROJECT_DIR$/NYPost/src/main/java/entertainmentpage/EntertainmentPage.java" />
-        <option value="$PROJECT_DIR$/NYPost/src/test/java/testmainpage/MainPageTest.java" />
-        <option value="$PROJECT_DIR$/NYPost/src/main/java/articles/MainPage.java" />
-        <option value="$PROJECT_DIR$/NYPost/src/test/java/testarticles/TestArticles.java" />
-        <option value="$PROJECT_DIR$/NYPost/src/test/java/testentertainment/EntertainmentTest.java" />
         <option value="$PROJECT_DIR$/NYPost/src/test/java/testfashionpage/FashionPageTest.java" />
-        <option value="$PROJECT_DIR$/NYPost/src/test/java/testbusinesspage/BusinessPageTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Generic/pom.xml" />
-        <option value="$PROJECT_DIR$/NYPost/src/main/resources/NYPTestRunner.xml" />
+        <option value="$PROJECT_DIR$/NYPost/src/test/java/testlivingpage/LivingPageTest.java" />
+        <option value="$PROJECT_DIR$/NYPost/src/test/java/testmediapage/MediaPageTest.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/main/java/AlertsPage/Alerts.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/main/java/buttonspage/Buttons.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/main/java/buttonspage/ButtonsPage.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/main/java/controlspage/ControlsPage.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/main/java/navigate/NavigateUi.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/main/java/imgespage/ImagesPage.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/main/java/textfieldspage/TextFields.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/main/java/searchbarpage/SearchBar.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/main/java/textviewpage/TextView.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/main/java/webpage/WebPage.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/main/java/pickerspage/PickerPage.java" />
+        <option value="$PROJECT_DIR$/NYPost/src/test/java/testmetropage/MetroPageTest.java" />
+        <option value="$PROJECT_DIR$/NYPost/src/test/java/testarticles/TestArticles.java" />
+        <option value="$PROJECT_DIR$/NYPost/src/main/java/articles/MainPage.java" />
+        <option value="$PROJECT_DIR$/NYPost/src/main/java/metropage/MetroPage.java" />
+        <option value="$PROJECT_DIR$/NYPost/src/main/java/entertainmentpage/EntertainmentPage.java" />
+        <option value="$PROJECT_DIR$/NYPost/src/main/java/homepage/HomePage.java" />
+        <option value="$PROJECT_DIR$/NYPost/src/test/java/testhome/TestHome.java" />
+        <option value="$PROJECT_DIR$/NYPost/src/main/java/articles/ArticlesLatest.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/main/java/alertspage/Alerts.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/test/java/testalertpage/TestAlertPage.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/test/java/testbuttonpage/TestButtonPage.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/test/java/testcontrolpage/TestControlPage.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/test/java/testimagepage/TestImagePage.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/test/java/testpickerpage/TestPickerPage.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/test/java/testsearchbarpage/TestSearchBarPage.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/main/java/segmentspage/SegmentsPage.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/test/java/testsegmentpage/TestSegmentPage.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/test/java/testtextfield/TestTextField.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/test/java/testtextview/TestTextView.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/main/java/toolbarpage/Toolbar.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/test/java/testtoolbar/TestToolBar.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/main/java/transitionspage/Transitions.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/test/java/testtransitionspage/TestTransitionsPage.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/main/java/uicatalogpage/UiCatalog.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/test/java/testuicatalogpage/TestUICatalogPage.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/test/java/testwebpage/TestWebPage.java" />
+        <option value="$PROJECT_DIR$/UIcatalog/src/test/resources/cataLogAppTestRunner.xml" />
+        <option value="$PROJECT_DIR$/NYPost/src/test/java/testarticles/TestArticlesLatest.java" />
+        <option value="$PROJECT_DIR$/NYPost/src/main/java/articles/ArticlesPage.java" />
+        <option value="$PROJECT_DIR$/NYPost/src/main/java/lateststories/ArticlesPage.java" />
+        <option value="$PROJECT_DIR$/NYPost/src/main/java/lateststories/LatestStories.java" />
         <option value="$PROJECT_DIR$/NYPost/src/test/resources/NYPTestRunner.xml" />
       </list>
     </option>
@@ -95,19 +280,28 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="MobileAutomationFramework" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="MobileAutomationFramework" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="NYPost" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="UIcatalog" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="UIcatalog" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
-  </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -116,10 +310,12 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,11 +326,6 @@
             <path>
               <item name="MobileAutomationFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="MobileAutomationFrameworkA" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MobileAutomationFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MobileAutomationFrameworkA" type="462c0819:PsiDirectoryNode" />
               <item name="NYPost" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -142,6 +333,21 @@
               <item name="MobileAutomationFrameworkA" type="462c0819:PsiDirectoryNode" />
               <item name="NYPost" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MobileAutomationFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileAutomationFrameworkA" type="462c0819:PsiDirectoryNode" />
+              <item name="NYPost" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MobileAutomationFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileAutomationFrameworkA" type="462c0819:PsiDirectoryNode" />
+              <item name="NYPost" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MobileAutomationFramework" type="b2602c69:ProjectViewProjectNode" />
@@ -149,6 +355,23 @@
               <item name="NYPost" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MobileAutomationFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileAutomationFrameworkA" type="462c0819:PsiDirectoryNode" />
+              <item name="NYPost" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MobileAutomationFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileAutomationFrameworkA" type="462c0819:PsiDirectoryNode" />
+              <item name="NYPost" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testlateststories" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MobileAutomationFramework" type="b2602c69:ProjectViewProjectNode" />
@@ -158,16 +381,19 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MobileAutomationFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileAutomationFrameworkA" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554676321722" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555036686492" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -179,6 +405,10 @@
       <recent name="$PROJECT_DIR$/NYPost/src/test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/UIcatalog" />
+      <recent name="$PROJECT_DIR$/NYPost" />
+      <recent name="$PROJECT_DIR$/UIcatalog/src/main" />
+      <recent name="$PROJECT_DIR$/Generic/src/main/java" />
       <recent name="$PROJECT_DIR$/Generic/src/main/resources" />
     </key>
   </component>
@@ -195,17 +425,17 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG./Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/NYPost/src/test/resources/NYPTestRunner.xml">
-    <configuration name="BusinessPageTest.Menu" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NYPost" />
+    <configuration name="TestButtonPage.Test3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UIcatalog" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testbusinesspage.*" />
+          <option name="PATTERN" value="testbuttonpage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testbusinesspage" />
-      <option name="MAIN_CLASS_NAME" value="testbusinesspage.BusinessPageTest" />
-      <option name="METHOD_NAME" value="Menu" />
+      <option name="PACKAGE_NAME" value="testbuttonpage" />
+      <option name="MAIN_CLASS_NAME" value="testbuttonpage.TestButtonPage" />
+      <option name="METHOD_NAME" value="Test3" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -213,16 +443,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EntertainmentTest.Test1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NYPost" />
+    <configuration name="TestImagePage.Test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UIcatalog" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testentertainment.*" />
+          <option name="PATTERN" value="testimagepage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testentertainment" />
-      <option name="MAIN_CLASS_NAME" value="testentertainment.EntertainmentTest" />
+      <option name="PACKAGE_NAME" value="testimagepage" />
+      <option name="MAIN_CLASS_NAME" value="testimagepage.TestImagePage" />
       <option name="METHOD_NAME" value="Test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -231,17 +461,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestArticles.Menu" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLatestStories.Test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NYPost" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testarticles.*" />
+          <option name="PATTERN" value="testlateststories.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testarticles" />
-      <option name="MAIN_CLASS_NAME" value="testarticles.TestArticles" />
-      <option name="METHOD_NAME" value="Menu" />
+      <option name="MAIN_CLASS_NAME" value="testlateststories.TestLatestStories" />
+      <option name="METHOD_NAME" value="Test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -249,7 +479,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/NYPost/src/test/resources/NYPTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/NYPost/src/test/resources/NYPTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NYPost" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/NYPost/src/test/resources/NYPTestRunner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
@@ -259,9 +489,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/src/test/resources/NYPTestRunner.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MobileAutomationFrameworkA" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/NYPTestRunner.xml" />
+    <configuration name="/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/UIcatalog/src/test/resources/cataLogAppTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UIcatalog" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/UIcatalog/src/test/resources/cataLogAppTestRunner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -270,19 +500,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.BusinessPageTest.Menu" />
-      <item itemvalue="TestNG.EntertainmentTest.Test1" />
-      <item itemvalue="TestNG.TestArticles.Menu" />
-      <item itemvalue="TestNG./Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/src/test/resources/NYPTestRunner.xml" />
+      <item itemvalue="TestNG./Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/UIcatalog/src/test/resources/cataLogAppTestRunner.xml" />
+      <item itemvalue="TestNG.TestButtonPage.Test3" />
+      <item itemvalue="TestNG.TestImagePage.Test1" />
       <item itemvalue="TestNG./Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/NYPost/src/test/resources/NYPTestRunner.xml" />
+      <item itemvalue="TestNG.TestLatestStories.Test1" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/NYPost/src/test/resources/NYPTestRunner.xml" />
-        <item itemvalue="TestNG.TestArticles.Menu" />
-        <item itemvalue="TestNG.BusinessPageTest.Menu" />
-        <item itemvalue="TestNG.EntertainmentTest.Test1" />
-        <item itemvalue="TestNG./Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/src/test/resources/NYPTestRunner.xml" />
+        <item itemvalue="TestNG.TestLatestStories.Test1" />
+        <item itemvalue="TestNG./Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/UIcatalog/src/test/resources/cataLogAppTestRunner.xml" />
+        <item itemvalue="TestNG.TestImagePage.Test1" />
+        <item itemvalue="TestNG.TestButtonPage.Test3" />
       </list>
     </recent_temporary>
   </component>
@@ -300,41 +530,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_alexkarmokar_IdeaProjects_MobileAutomationFrameworkA_NYPost_src_test_resources_NYPTestRunner_xml - 2019.04.07 at 13h 28m 49s.xml">
-      <configuration name="/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/NYPost/src/test/resources/NYPTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_alexkarmokar_IdeaProjects_MobileAutomationFrameworkA_UIcatalog_src_test_resources_cataLogAppTestRunner_xml - 2019.04.11 at 20h 04m 48s.xml">
+      <configuration name="/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/UIcatalog/src/test/resources/cataLogAppTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_alexkarmokar_IdeaProjects_MobileAutomationFrameworkA_NYPost_src_test_resources_NYPTestRunner_xml - 2019.04.07 at 13h 33m 24s.xml">
-      <configuration name="/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/NYPost/src/test/resources/NYPTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_alexkarmokar_IdeaProjects_MobileAutomationFrameworkA_UIcatalog_src_test_resources_cataLogAppTestRunner_xml - 2019.04.11 at 20h 12m 40s.xml">
+      <configuration name="/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/UIcatalog/src/test/resources/cataLogAppTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_alexkarmokar_IdeaProjects_MobileAutomationFrameworkA_NYPost_src_test_resources_NYPTestRunner_xml - 2019.04.07 at 13h 34m 47s.xml">
-      <configuration name="/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/NYPost/src/test/resources/NYPTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="TestAlertPage_Test1 - 2019.04.11 at 20h 18m 44s.xml">
+      <configuration name="TestAlertPage.Test1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_alexkarmokar_IdeaProjects_MobileAutomationFrameworkA_NYPost_src_test_resources_NYPTestRunner_xml - 2019.04.07 at 13h 36m 18s.xml">
-      <configuration name="/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/NYPost/src/test/resources/NYPTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_alexkarmokar_IdeaProjects_MobileAutomationFrameworkA_UIcatalog_src_test_resources_cataLogAppTestRunner_xml - 2019.04.11 at 20h 36m 06s.xml">
+      <configuration name="/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/UIcatalog/src/test/resources/cataLogAppTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_alexkarmokar_IdeaProjects_MobileAutomationFrameworkA_NYPost_src_test_resources_NYPTestRunner_xml - 2019.04.07 at 13h 39m 49s.xml">
-      <configuration name="/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/NYPost/src/test/resources/NYPTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_alexkarmokar_IdeaProjects_MobileAutomationFrameworkA_UIcatalog_src_test_resources_cataLogAppTestRunner_xml - 2019.04.11 at 20h 37m 40s.xml">
+      <configuration name="/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/UIcatalog/src/test/resources/cataLogAppTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_alexkarmokar_IdeaProjects_MobileAutomationFrameworkA_NYPost_src_test_resources_NYPTestRunner_xml - 2019.04.07 at 13h 41m 27s.xml">
-      <configuration name="/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/NYPost/src/test/resources/NYPTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_alexkarmokar_IdeaProjects_MobileAutomationFrameworkA_UIcatalog_src_test_resources_cataLogAppTestRunner_xml - 2019.04.11 at 20h 39m 26s.xml">
+      <configuration name="/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/UIcatalog/src/test/resources/cataLogAppTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_alexkarmokar_IdeaProjects_MobileAutomationFrameworkA_NYPost_src_test_resources_NYPTestRunner_xml - 2019.04.07 at 13h 42m 39s.xml">
-      <configuration name="/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/NYPost/src/test/resources/NYPTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="TestButtonPage_Test1 - 2019.04.11 at 20h 47m 40s.xml">
+      <configuration name="TestButtonPage.Test1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_alexkarmokar_IdeaProjects_MobileAutomationFrameworkA_NYPost_src_test_resources_NYPTestRunner_xml - 2019.04.07 at 13h 43m 12s.xml">
-      <configuration name="/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/NYPost/src/test/resources/NYPTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="TestButtonPage_Test3 - 2019.04.11 at 20h 47m 57s.xml">
+      <configuration name="TestButtonPage.Test3" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestArticles_Menu - 2019.04.07 at 18h 01m 32s.xml">
-      <configuration name="TestArticles.Menu" configurationId="TestNG" />
+    <history-entry file="TestImagePage_Test1 - 2019.04.11 at 20h 56m 51s.xml">
+      <configuration name="TestImagePage.Test1" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_alexkarmokar_IdeaProjects_MobileAutomationFrameworkA_NYPost_src_test_resources_NYPTestRunner_xml - 2019.04.07 at 18h 09m 14s.xml">
-      <configuration name="/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/NYPost/src/test/resources/NYPTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_alexkarmokar_IdeaProjects_MobileAutomationFrameworkA_UIcatalog_src_test_resources_cataLogAppTestRunner_xml - 2019.04.11 at 21h 42m 08s.xml">
+      <configuration name="/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/UIcatalog/src/test/resources/cataLogAppTestRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2670895" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28397712" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -342,308 +573,531 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32921812" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007153" side_tool="true" weight="0.32968536" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007153" side_tool="true" weight="0.32784638" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49928468" visible="true" weight="0.32921812" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.18454936" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28397712" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32921812" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007153" side_tool="true" weight="0.32784638" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49928468" weight="0.32921812" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.10085837" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.18454936" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/NYPost/src/main/java/articles/MainPage.java</url>
-          <line>13</line>
+          <url>file://$PROJECT_DIR$/NYPost/src/main/java/lateststories/LatestStories.java</url>
+          <line>12</line>
           <properties field="btnBurger" class="articles.MainPage" />
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/UIcatalog/src/main/java/alertspage/Alerts.java</url>
+          <line>40</line>
+          <properties field="UIAlertView" class="alertspage.Alerts" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/UIcatalog/src/main/java/alertspage/Alerts.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/NYPost/src/test/java/testmetropage/MetroPageTest.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/NYPost/src/test/java/testlateststories/TestLatestStories.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/UIcatalog/src/test/java/testcontrolpage/TestControlPage.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/articles/FashionTest.java" />
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/articles/LivingPageTest.java" />
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/articles/MediaPageTest.java" />
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/articles/MetroPageTest.java" />
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/articles/NewsPageTest.java" />
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/articles/OpinionPageTest.java" />
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/articles/PageSixTest.java" />
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/articles/PhotoPagesTest.java" />
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/articles/TestRealEstatePage.java" />
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/articles/SportsPageTest.java" />
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/articles/TechPageTest.java" />
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/articles/VideoPageTest.java" />
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/articles/ArticleTest.java" />
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/articles/MainPageTest.java" />
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testlivingpage/LivingPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testmediapage/MediaPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testmetropage/MetroPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testnewspage/NewsPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testopinionpage/OpinionPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testpagesix/PageSixTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testphotospage/PhotosPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testrealestate/ReslEstateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testsportspage/SportsPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testtechpage/TechPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testvideopage/VideoPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/opinionpage/OpinionPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/photospage/PhotoPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/realestatepage/RealStatePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/sportspage/SportsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/techpage/TechPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/videopage/VideoPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/newspage/NewsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/resources/MobileAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/businesspage/BusinessPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="135">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/pagesix/PageSix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/mediapage/MediaPage.java">
+    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/photospage/PhotoPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="135">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/metropage/MetroPage.java">
+    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/realestatepage/RealStatePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="-56">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/entertainmentpage/EntertainmentPage.java">
+    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/sportspage/SportsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        <state relative-caret-position="360">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testentertainment/EntertainmentTest.java">
+    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/techpage/TechPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="446">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/fashionpage/FashionPage.java">
+    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testmetropage/MetroPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/livingpage/LivingPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testfashionpage/FashionPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testbusinesspage/BusinessPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        <state relative-caret-position="146">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/articles/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testbusinesspage/BusinessPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testarticles/TestArticles.java">
+    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/videopage/VideoPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="180">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/src/test/test.iml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/metropage/MetroPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/fashionpage/FashionPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/homepage/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/entertainmentpage/EntertainmentPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testentertainment/EntertainmentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testhome/TestHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="72" column="60" lean-forward="true" selection-start-line="72" selection-start-column="60" selection-end-line="72" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/json/JsonInput.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/test/java/testalertpage/TestAlertPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/stream/ReferencePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="498" selection-start-line="498" selection-end-line="498" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/json/MapCoercer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/json/JsonTypeCoercer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/main/java/buttonspage/ButtonsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/test/java/testbuttonpage/TestButtonPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/main/java/alertspage/Alerts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="42" lean-forward="true" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/test/java/testimagepage/TestImagePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/main/java/controlspage/ControlsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/main/java/pickerspage/PickerPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/test/java/testcontrolpage/TestControlPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/test/java/testsearchbarpage/TestSearchBarPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/main/java/imgespage/ImagesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/test/java/testpickerpage/TestPickerPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/main/java/searchbarpage/SearchBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/main/java/segmentspage/SegmentsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/test/java/testsegmentpage/TestSegmentPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/test/java/testtextview/TestTextView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/main/java/textviewpage/TextView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/test/java/testtextfield/TestTextField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/main/java/toolbarpage/Toolbar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/test/java/testtoolbar/TestToolBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/main/java/textfieldspage/TextFields.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/test/java/testtransitionspage/TestTransitionsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/test/java/testuicatalogpage/TestUICatalogPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/main/java/uicatalogpage/UiCatalog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/main/java/transitionspage/Transitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/main/java/webpage/WebPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/test/java/testwebpage/TestWebPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UIcatalog/src/test/resources/cataLogAppTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/businesspage/BusinessPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1554860771164" expanded="true" signature="1464:1548" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NYPost/src/test/resources/NYPTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="330">
+          <caret line="22" column="53" lean-forward="true" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYPost/src/test/java/testlateststories/TestLatestStories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYPost/src/main/java/lateststories/LatestStories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -699,7 +1153,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>MobileAutomationFrameworkA</last-edited>
+          <last-edited>UIcatalog</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

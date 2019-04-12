@@ -1,4 +1,5 @@
 opinionpage/OpinionPage.class
+entertainmentpage/EntertainmentPage$2.class
 videopage/VideoPage.class
 pagesix/PageSix.class
 sportspage/SportsPage.class
@@ -12,4 +13,5 @@ businesspage/BusinessPage.class
 fashionpage/FashionPage.class
 articles/MainPage.class
 realestatepage/RealStatePage.class
+entertainmentpage/EntertainmentPage$1.class
 mediapage/MediaPage.class
