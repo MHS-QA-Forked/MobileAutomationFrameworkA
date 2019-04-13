@@ -33,12 +33,13 @@ public class PhotoPage extends CommonAPI {
 
     public void PhotoPage() {
         OpenMenuPhotosPage.click();
-        String title = ad.getTitle();
-        Assert.assertEquals(title, "Appium");
-
+//        String title = ad.getTitle();
+//        Assert.assertEquals(title, "Appium");
+    }
+        public void PhotoPage1() {
         PhotosPage.click();
         String title1 = ad.getTitle();
-        Assert.assertEquals(title, "Appium");
+        Assert.assertEquals(title1, "Appium");
 
     }
 }

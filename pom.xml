@@ -12,6 +12,7 @@
         <module>Generic</module>
         <module>NYPost</module>
         <module>UIcatalog</module>
+        <module>Ebay</module>
     </modules>
     <!--<dependencies>-->
         <!--<dependency>-->

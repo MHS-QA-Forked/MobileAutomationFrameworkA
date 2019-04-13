@@ -127,60 +127,60 @@ public class Alerts extends CommonAPI {
     }
     public void AlertsPage() {
         BackButton.click();
-        String title = ad.getTitle();
-        Assert.assertEquals(title, "Appium");
+//        String title = ad.getTitle();
+//        Assert.assertEquals(title, "Appium");
 
         AlertsTab.click();
-        String title1 = ad.getTitle();
-        Assert.assertEquals(title, "Appium");
+//        String title1 = ad.getTitle();
+//        Assert.assertEquals(title, "Appium");
 
         UIActionSheet.click();
-        String title2 = ad.getTitle();
-        Assert.assertEquals(title, "Appium");
+//        String title2 = ad.getTitle();
+//        Assert.assertEquals(title, "Appium");
 
         ShowSimple.click();
-        String title3 = ad.getTitle();
-        Assert.assertEquals(title, "Appium");
+//        String title3 = ad.getTitle();
+//        Assert.assertEquals(title, "Appium");
 
         AlertReviewControler.click();
-        String title4 = ad.getTitle();
-        Assert.assertEquals(title, "Appium");
+//        String title4 = ad.getTitle();
+//        Assert.assertEquals(title, "Appium");
 
         ShowOkCancel.click();
-        String title5 = ad.getTitle();
-        Assert.assertEquals(title, "Appium");
+//        String title5 = ad.getTitle();
+//        Assert.assertEquals(title, "Appium");
 
         AlertViewConDialogOkCancelAction.click();
-        String title6 = ad.getTitle();
-        Assert.assertEquals(title, "Appium");
+//        String title6 = ad.getTitle();
+//        Assert.assertEquals(title, "Appium");
 
         ShowCustomizedTab.click();
-        String title7 = ad.getTitle();
-        Assert.assertEquals(title, "Appium");
+//        String title7 = ad.getTitle();
+//        Assert.assertEquals(title, "Appium");
 
         UIAlertView.click();
-        String title8 = ad.getTitle();
-        Assert.assertEquals(title, "Appium");
+//        String title8 = ad.getTitle();
+//        Assert.assertEquals(title, "Appium");
 
         ShowSimpleTab.click();
-        String title9 = ad.getTitle();
-        Assert.assertEquals(title, "Appium");
+//        String title9 = ad.getTitle();
+//        Assert.assertEquals(title, "Appium");
 
         AlertViewConAlertSimAction.click();
-        String title10 = ad.getTitle();
-        Assert.assertEquals(title, "Appium");
+//        String title10 = ad.getTitle();
+//        Assert.assertEquals(title, "Appium");
 
         UIAlertViewShowSimple.click();
-        String title11 = ad.getTitle();
-        Assert.assertEquals(title, "Appium");
+//        String title11 = ad.getTitle();
+//        Assert.assertEquals(title, "Appium");
 
         ShowCustomTab.click();
-        String title12 = ad.getTitle();
-        Assert.assertEquals(title, "Appium");
+//        String title12 = ad.getTitle();
+//        Assert.assertEquals(title, "Appium");
 
         SecureTextInput.click();
-        String title13 = ad.getTitle();
-        Assert.assertEquals(title, "Appium");
+//        String title13 = ad.getTitle();
+//        Assert.assertEquals(title, "Appium");
 
     }
 }

@@ -30,12 +30,9 @@ public class EntertainmentPage  extends CommonAPI {
 }
     public void showEntertainment(){
         OpenMenu.click();
-        String title = ad.getTitle ();
-        Assert.assertEquals (title, "Appium");
 
         Entertainment.click();
-        String title1 = ad.getTitle ();
-        Assert.assertEquals (title, "Appium");
+
 
     }
 

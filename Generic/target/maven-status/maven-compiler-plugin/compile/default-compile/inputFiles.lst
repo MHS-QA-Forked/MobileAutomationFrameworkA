@@ -1,5 +1,10 @@
 /Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/Generic/src/main/java/common/CommonAPI.java
+/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/Generic/src/main/java/databases/ConnectToMongoDB.java
+/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/Generic/src/main/java/databases/User.java
 /Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/Generic/src/main/java/reporting/ExtentTestManager.java
 /Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/Generic/src/main/java/reporting/ApplicationLog.java
+/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/Generic/src/main/java/excelFileReader/ExcelFileReader.java
 /Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/Generic/src/main/java/reporting/TestLogger.java
 /Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/Generic/src/main/java/reporting/ExtentManager.java
+/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/Generic/src/main/java/utility/DataReader.java
+/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/Generic/src/main/java/databases/ConnectToSqlDB.java

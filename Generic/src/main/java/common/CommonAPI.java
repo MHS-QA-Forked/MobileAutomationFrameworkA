@@ -7,10 +7,8 @@ import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.remote.MobilePlatform;
 import org.apache.commons.lang3.StringUtils;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.touch.TouchActions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -28,195 +26,210 @@ import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
 
-    public static AppiumDriver ad = null;
-    public String OS = null;
-    public String deviceName = null;
-    public String deviceType = null;
-    public String appType = null;
-    public String version = null;
-    public File appDirectory = null;
-    public File findApp = null;
-    public DesiredCapabilities cap = null;
+        public static AppiumDriver ad = null;
+        public String OS = null;
+        public String deviceName = null;
+        public String deviceType = null;
+        public String appType = null;
+        public String version = null;
+        public File appDirectory = null;
+        public File findApp = null;
+        public DesiredCapabilities cap = null;
 
-    @Parameters({"OS", "appType", "deviceType", "deviceName", "version"})
-    @BeforeMethod
-    public void setUp(@Optional("Android") String OS, @Optional("Phone") String appType, @Optional("Emulator") String deviceType, @Optional("Nexus") String deviceName,
-                      @Optional("9") String version) throws IOException, InterruptedException {
+        @Parameters({"OS", "appType", "deviceType", "deviceName", "version"})
+        @BeforeMethod
+        public void setUp(String OS, String appType, String deviceType, String deviceName,
+                          String version) throws IOException, InterruptedException {
+
+            if (OS.equalsIgnoreCase("ios")) {
+                if (appType.contains("iPhone")) {
+                    appDirectory = new File("src/app");
+                    findApp = new File(appDirectory, "UICatalog.app");
+                    if (deviceType.equalsIgnoreCase("RealDevice")) {
+                        cap = new DesiredCapabilities();
+                        cap.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
+                        cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.IOS);
+                        cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
+                        cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
+                        cap.setCapability(MobileCapabilityType.APP, findApp.getAbsolutePath());
+                        ad = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
+                        ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+                    } else if (deviceType.equalsIgnoreCase("Simulator")) {
+                        cap = new DesiredCapabilities();
+                        cap.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
+                        cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.IOS);
+                        cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
+                        cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
+                        cap.setCapability(MobileCapabilityType.APP, appDirectory);//findApp.getAbsolutePath()
+                        ad = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
+                        ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+                    }
 
 
-        if (OS.equalsIgnoreCase("ios")) {
-            if (appType.contains("iPhone")) {
-                appDirectory = new File("/Users/alexkarmokar/IdeaProjects/MobileAutomationFrameworkA/NYPost/src/app");
-                findApp = new File(appDirectory, "NYPost/src/app/nyp.apk");
-                if (deviceType.equalsIgnoreCase("RealDevice")) {
-                    cap = new DesiredCapabilities();
-                    cap.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
-                    cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.IOS);
-                    cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
-                    cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
-                    cap.setCapability(MobileCapabilityType.APP, findApp.getAbsolutePath());
-                    ad = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
-                    ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+                } else if (appType.equalsIgnoreCase("iPad 2")) {
+                    appDirectory = new File("IOS/src/app");
+                    findApp = new File(appDirectory, "UICatalog6.1.app.zip");
+                    if (deviceType.contains("RealDevice")) {
+                        cap = new DesiredCapabilities();
+                        cap.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
+                        cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.IOS);
+//                    cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
+                        cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
+                        cap.setCapability(MobileCapabilityType.APP, findApp.getAbsolutePath());
+                        ad = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
+                        ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-                } else if (deviceType.equalsIgnoreCase("Simulator")) {
-                    cap = new DesiredCapabilities();
-                    cap.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
-                    cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.IOS);
-                    cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
-                    cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
-                    cap.setCapability(MobileCapabilityType.APP, appDirectory);//findApp.getAbsolutePath()
-                    ad = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
-                    ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+                    } else if (deviceType.equalsIgnoreCase("Simulator")) {
+                        cap = new DesiredCapabilities();
+                        cap.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
+                        cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.IOS);
+                        cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
+                        cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
+                        cap.setCapability(MobileCapabilityType.APP, findApp.getAbsolutePath());
+                        ad = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
+                        ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+                    }
                 }
 
+            } else if (OS.contains("Android")) {
+                if (appType.contains("Phone")) {
+                    appDirectory = new File("src/app");
+                    findApp = new File(appDirectory, "ebay.apk");
+                    if (deviceType.equalsIgnoreCase("RealDevice")) {
+                        cap = new DesiredCapabilities();
+                        cap.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
+                        cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
+                        cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
+                        cap.setCapability(MobileCapabilityType.APP, findApp.getAbsolutePath());
+                        ad = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), cap);
+                        ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-            } else if (appType.equalsIgnoreCase("iPad 2")) {
-                appDirectory = new File("IOS/src/app");
-                findApp = new File(appDirectory, "UICatalog6.1.app.zip");
-                if (deviceType.contains("RealDevice")) {
-                    cap = new DesiredCapabilities();
-                    cap.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
-                    cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.IOS);
-                    cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
-                    cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
-                    cap.setCapability(MobileCapabilityType.APP, findApp.getAbsolutePath());
-                    ad = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
-                    ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+                    } else if (deviceType.equalsIgnoreCase("Emulator")) {
 
-                } else if (deviceType.equalsIgnoreCase("Simulator")) {
-                    cap = new DesiredCapabilities();
-                    cap.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
-                    cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.IOS);
-                    cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
-                    cap.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
-                    cap.setCapability(MobileCapabilityType.APP, findApp.getAbsolutePath());
-                    ad = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
-                    ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+                        cap = new DesiredCapabilities();
+                        cap.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
+                        cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
+                        cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
+                        cap.setCapability(MobileCapabilityType.APP, findApp.getAbsolutePath());
+                        ad = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), cap);
+                        ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+                    }
+
+                } else if (OS.equalsIgnoreCase("Tablets")) {
+                    if (deviceType.equalsIgnoreCase("RealDevice")) {
+                        cap = new DesiredCapabilities();
+                        cap.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
+                        cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
+                        cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
+                        cap.setCapability(MobileCapabilityType.APP, findApp.getAbsolutePath());
+                        ad = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
+                        ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+                    } else if (deviceType.equalsIgnoreCase("Emulator")) {
+
+                        cap = new DesiredCapabilities();
+                        cap.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
+                        cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
+                        cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
+                        cap.setCapability(MobileCapabilityType.APP, findApp.getAbsolutePath());
+                        ad = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
+                        ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+                    }
 
                 }
+
             }
 
-        } else if (OS.contains("Android")) {
-            if (appType.contains("Phone")) {
-                appDirectory = new File("src/app");
-                findApp = new File(appDirectory, "nyp.apk");
-                if (deviceType.equalsIgnoreCase("RealDevice")) {
-                    cap = new DesiredCapabilities();
-                    cap.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
-                    cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
-                    cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
-                    cap.setCapability(MobileCapabilityType.APP, findApp.getAbsolutePath());
-                    ad = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
-                    ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-                } else if (deviceType.equalsIgnoreCase("Emulator")) {
+        }
 
-                    cap = new DesiredCapabilities();
-                    cap.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
-                    cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
-                    cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
-                    cap.setCapability(MobileCapabilityType.APP, findApp.getAbsolutePath());
-                    ad = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
-                    ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-                }
+        @AfterMethod
+        public void cleanUpApp() {
+            ad.quit();
+        }
 
-            } else if (OS.equalsIgnoreCase("Tablets")) {
-                if (deviceType.equalsIgnoreCase("RealDevice")) {
-                    cap = new DesiredCapabilities();
-                    cap.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
-                    cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
-                    cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
-                    cap.setCapability(MobileCapabilityType.APP, findApp.getAbsolutePath());
-                    ad = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
-                    ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        public void clickByXpath(String locator) {
+            ad.findElement(By.xpath(locator)).click();
+        }
 
-                } else if (deviceType.equalsIgnoreCase("Emulator")) {
+        public void clickByXpathWebElement(WebElement locator) {
+            locator.click();
+        }
 
-                    cap = new DesiredCapabilities();
-                    cap.setCapability(MobileCapabilityType.DEVICE_NAME, deviceName);
-                    cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
-                    cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
-                    cap.setCapability(MobileCapabilityType.APP, findApp.getAbsolutePath());
-                    ad = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
-                    ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-                }
+        public void sleep(int sec) throws InterruptedException {
+            Thread.sleep(1000 * sec);
+        }
 
+        public void typeByXpath(String locator, String value, Keys key) {
+            ad.findElement(By.xpath(locator)).sendKeys(value);
+        }
+
+        public void typeByXpath(String locator, String value) {
+            ad.findElement(By.xpath(locator)).sendKeys(value);
+        }
+
+        public List<String> getTexts(List<WebElement> elements) {
+            List<String> text = new ArrayList<String>();
+            for (WebElement element : elements) {
+                text.add(element.getText());
             }
 
+            return text;
+        }
+
+        public static void scrollKeys(AppiumDriver driver, String[] list, String parent) {
+            System.out.println("Starting the process");
+            for (int i = 0; i < list.length; i++) {
+                MobileElement we = (MobileElement) driver.findElementByXPath(parent + "/UIAPickerWheel[" + (i + 1) + "]");
+                we.sendKeys(list[i]);
+            }
+            System.out.println("Ending Process");
+        }
+
+        public static void swipeFromOneToAnother(MobileElement element1, MobileElement element2) {
+            try {
+                TouchActions actions = new TouchActions(ad);
+                ad.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+                Point location1 = element1.getLocation();
+                int X1 = location1.getX();
+                int Y1 = location1.getY();
+                Point location2 = element2.getLocation();
+                int X2 = location2.getX();
+                int Y2 = location2.getY();
+
+                actions.scroll(X1, Y1).move(X2, Y2).release().perform();
+            } catch (Exception e) {
+
+            }
+        }
+
+        public void scrollToElement(AppiumDriver driver, String text) {
+            MobileElement we = (MobileElement) driver.findElementByXPath(text);
+            driver.scrollTo(we.getText());
+        }
+
+        public void alertAccept(WebDriver driver) {
+            WebDriverWait wait = new WebDriverWait(driver, 5);
+            try {
+                wait.until(ExpectedConditions.alertIsPresent());
+                driver.switchTo().alert().accept();
+            } catch (Exception e) {
+                System.err.println("No alert visible in 5 seconds");
+            }
+        }
+
+        public void scrollAndClickByName(String locator) {
+            ad.scrollTo(locator).click();
+        }
+
+        public static String convertToString(String st) {
+            String splitString = "";
+            splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
+            return splitString;
         }
 
 
     }
-
-    @AfterMethod
-    public void cleanUpApp() {
-        ad.quit();
-    }
-
-    public void clickByXpath(String locator) {
-        ad.findElement(By.xpath(locator)).click();
-    }
-
-    public void clickByXpathWebElement(WebElement locator) {
-        locator.click();
-    }
-
-    public void sleep(int sec) throws InterruptedException {
-        Thread.sleep(1000 * sec);
-    }
-
-    public void typeByXpath(String locator, String value, Keys key) {
-        ad.findElement(By.xpath(locator)).sendKeys(value);
-    }
-
-    public void typeByXpath(String locator, String value) {
-        ad.findElement(By.xpath(locator)).sendKeys(value);
-    }
-
-    public List<String> getTexts(List<WebElement> elements) {
-        List<String> text = new ArrayList<String>();
-        for (WebElement element : elements) {
-            text.add(element.getText());
-        }
-
-        return text;
-    }
-
-    public static void scrollKeys(AppiumDriver driver, String[] list, String parent) {
-        System.out.println("Starting the process");
-        for (int i = 0; i < list.length; i++) {
-            MobileElement we = (MobileElement) driver.findElementByXPath(parent + "/UIAPickerWheel[" + (i + 1) + "]");
-            we.sendKeys(list[i]);
-        }
-        System.out.println("Ending Process");
-    }
-
-    public void scrollToElement(AppiumDriver driver, String text) {
-        MobileElement we = (MobileElement) driver.findElementByXPath(text);
-        driver.scrollTo(we.getText());
-    }
-
-//    public void alertAccept(WebDriver driver) {
-//        WebDriverWait wait = new WebDriverWait(driver, 5);
-//        try {
-//            wait.until(ExpectedConditions.alertIsPresent());
-//            driver.switchTo().alert().accept();
-//        } catch (Exception e) {
-//            System.err.println("No alert visible in 5 seconds");
-//        }
-//    }
-
-    public void scrollAndClickByName(String locator) {
-        ad.scrollTo(locator).click();
-    }
-
-    public static String convertToString(String st) {
-        String splitString = "";
-        splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
-        return splitString;
-    }
-
-
-}
-
 

@@ -36,8 +36,8 @@ public class PageSix extends CommonAPI {
         Assert.assertEquals(title, "Appium");
 
         TurnOnNotifications.click();
-        String title1 = ad.getTitle();
-        Assert.assertEquals(title, "Appium");
+//        String title1 = ad.getTitle();
+//        Assert.assertEquals(title, "Appium");
 
 
         }

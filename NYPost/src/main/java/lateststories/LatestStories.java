@@ -9,8 +9,8 @@ import reporting.TestLogger;
 
 public class LatestStories extends CommonAPI {
 
-    public LatestStories() { PageFactory.initElements(ad, this);
-    }
+//    public LatestStories() { PageFactory.initElements(ad, this);
+//    }
 
     @FindBy(xpath = "//android.widget.TextView[@text='Search Articles']")
     WebElement SearchArticles;
@@ -55,24 +55,25 @@ public class LatestStories extends CommonAPI {
 
     public void Articles() {
         SearchArticles.click();
-        String title = ad.getTitle();
-        Assert.assertEquals(title, "Appium");
+//        String title = ad.getTitle();
+//        Assert.assertEquals(title, "Appium");
 
         LatestStories.click();
-        String title1 = ad.getTitle();
-        Assert.assertEquals(title, "Appium");
+//        String title1 = ad.getTitle();
+//        Assert.assertEquals(title, "Appium");
 
         SearchFrameLayout.click();
-        String title2 = ad.getTitle();
-        Assert.assertEquals(title, "Appium");
+//        String title2 = ad.getTitle();
+//        Assert.assertEquals(title, "Appium");
 
         SavedArticlesTab.click();
-        String title3 = ad.getTitle();
-        Assert.assertEquals(title, "Appium");
+//        String title3 = ad.getTitle();
+//        Assert.assertEquals(title, "Appium");
 
         SettingsTab.click();
-        String title4 = ad.getTitle();
-        Assert.assertEquals(title, "Appium");
+//        String title4 = ad.getTitle();
+//        Assert.assertEquals(title, "Appium");
 
     }
+
 }
